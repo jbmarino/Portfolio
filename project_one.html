@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <nav id="navigation">
+        <div class="logo">Joseph Marino</div>
+        <div>
+            <ul class="nav-links">
+                <a href="index.html">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Joseph Marino</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()" >Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="projects">
+        <h2>Duration</h2>
+        <p class="section_text_p1">09.02.2023 - 11.04.2023<br>10 Weeks</p>
+        <br>
+        <h2>Course</h2>
+        <p class="section_text_p1">SI 422: Needs Assessment and Usability Evaluation</p>
+        <br>
+        <h2>Team Members</h2>
+        <p class="section_text_p1">Joseph Marino</p>
+        <br>
+        <h2>Role</h2>
+        <p class="section_text_p1">UX Researcher</p>
+        <br>
+        <h1 class="title">Mental Health & Art User Research</h1>
+        <br>
+        <br>
+        <img
+        src="./images/mental.jpg"
+        alt="Mental Health & Art Image"
+        width="50%"
+        class="center"
+        />
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="time">
+        <div class="timeline">
+            <div class="container-one left">
+                <div class="text-box">
+                    <h2>Week One: Choosing a Problem</h2>
+                    <small>August 28th - September 2nd</small>
+                    <p>In the first week, the focus was on selecting a semester-long problem, 
+                    understanding its existing context, and considering potential solutions while 
+                    reflecting on personal biases and perspectives.</p>
+                    <br>
+                    <div class="btn-container">
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="window.open('./assests/week-one.pdf')"
+                        >
+                            Problem
+                        </button>
+                    </div>
+                    <span class="left-arrow"></span>
+                </div>
+            </div>
+            <div class="container-one right">   
+                <div class="text-box">
+                    <h2>Week Three: Research Plan</h2>
+                    <small>September 11th - September 16th</small>
+                    <p> During Week 3, a research plan was established, 
+                    aligning deliverables with research objectives 
+                    and selecting generative or observational methods for interviews.</p>
+                    <br>
+                    <div class="btn-container">
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='project_one.html' "
+                        >
+                            Research Plan
+                        </button>
+                    </div>
+                    <span class="right-arrow"></span>
+                </div>
+            </div>
+            <div class="container-one left">
+                <div class="text-box">
+                    <h2>Week Four: Recruitment</h2>
+                    <small>September 18th - September 23rd</small>
+                    <p>In Week 4, a recruitment plan was outlined, 
+                    including participant criteria, recruitment materials, and informed consent, 
+                    all in harmony with research objectives.</p>
+                    <br>
+                    <div class="btn-container">
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='project_one.html' "
+                        >
+                            Recruitment Plan
+                        </button>
+                    </div>
+                    <span class="left-arrow"></span>
+                </div>
+            </div>
+            <div class="container-one right">
+                <div class="text-box">
+                    <h2>Week Five: Interview</h2>
+                    <small>September 25th - September 30th</small>
+                    <p>Week 5 involved preparing and piloting a semi-structured interview guide, 
+                    with a focus on bias avoidance and adjustments based on pilot feedback.</p>
+                    <br>
+                    <div class="btn-container">
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='project_one.html' "
+                        >
+                            Interview Guide
+                        </button>
+                    </div>
+                    <span class="right-arrow"></span>
+                </div>
+            </div>
+            <div class="container-one left">
+                <div class="text-box">
+                    <h2>Week Six: Interview</h2>
+                    <small>October 9th - October 14th</small>
+                    <p>This week encompassed conducting interviews, 
+                    transforming data into transcripts, 
+                    and critical self-reflection on research choices and potential improvements.</p>
+                    <span class="left-arrow"></span>
+                </div>
+            </div>
+            <div class="container-one right">
+                <div class="text-box">
+                    <h2>Week Seven: Thematic Analysis - Coding</h2>
+                    <small>October 16th - October 21st</small>
+                    <p>During Week 7, interview data was coded, patterns were identified, 
+                    and their relevance to research objectives was discussed.</p>
+                    <span class="right-arrow"></span>
+                </div>
+            </div>
+            <div class="container-one left">
+                <div class="text-box">
+                    <h2>Week Nine: Thematic Analysis - Themes</h2>
+                    <small>October 23rd - Ovtober 28th</small>
+                    <p>Week 9 was dedicated to transforming codes into themes using an affinity diagram, 
+                    considering whether saturation was reached, and reflecting on the research process.</p>
+                    <br>
+                    <div class="btn-container">
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='project_one.html' "
+                        >
+                            Affrinity Diagram
+                        </button>
+                    </div>
+                    <span class="left-arrow"></span>
+                </div>
+            </div>   
+            <div class="container-one right">
+                <div class="text-box">
+                    <h2>Week Ten: Deliverables</h2>
+                    <small>October 30th - November 4th</small>
+                    <p>In the final week, deliverables, such as personas and storyboards, were created to encapsulate research findings, 
+                    and an executive summary was provided.</p>
+                    <br>
+                    <div class="btn-container">
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='project_one.html' "
+                        >
+                            Deliverables
+                        </button>
+                    </div>
+                    <span class="right-arrow"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
