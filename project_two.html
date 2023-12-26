@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <nav id="navigation">
+        <div class="logo">Joseph Marino</div>
+        <div>
+            <ul class="nav-links">
+                <a href="index.html">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Joseph Marino</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()" >Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="projects">
+        <h2>Duration</h2>
+        <p class="section_text_p1">11.13.2023 - 12.09.2023<br>3 Weeks</p>
+        <br>
+        <h2>Course</h2>
+        <p class="section_text_p1">SI 422: Needs Assessment and Usability Evaluation</p>
+        <br>
+        <h2>Team Members</h2>
+        <p class="section_text_p1">Joseph Marino</p>
+        <br>
+        <h2>Role</h2>
+        <p class="section_text_p1">UX Researcher</p>
+        <br>
+        <h1 class="title">Usability Testing & Evaluation</h1>
+        <img
+        src="./images/tour.jpg"
+        alt="Gallery Image"
+        width="50%"
+        class="center"
+        />
+    </section>
+    
+    <section>
+        <img
+        src="./images/gallery.png"
+        alt="Gallery Image"
+        width="50%"
+        class="center"
+    />
+        <div class="about-details-container">
+            <div class="about-container">
+                </div>
+                <div class="text-container">
+                    <p>For my class project I was tasked with evaluating the usability of an interface of my choice. 
+                    I then had to select one of four evaluation methods: A/B Test, Heuristic Evaluation, Cognitive Walkthrough, or Card Sort. 
+                    I then provided a clear explanation of the chosen method and its application to the selected interface, along with a defined objective. Following this, I developed a research plan that not only outlined the procedural steps but also tailored them specifically to the interface and objectives at hand.
+                    <br>
+                    <br>
+                    As the course progressed, I delved into preparing for a usability test. 
+                    I provided a detailed description of the interface under evaluation, highlighted the specific aspects to be tested, and established clear inclusion/exclusion criteria for participants. 
+                    Additionally, I customized a facilitator guide and an informed consent form, creating tasks with follow-up questions designed to align with the research objectives.
+                    <br>
+                    <br>
+                    In the final phase, I conducted usability test piloting, refining my materials based on participant feedback. 
+                    I documented the number of pilot participants and explained the rationale behind any adjustments made to the materials after each pilot session. 
+                    I then reflected on the most challenging aspects I encountered during the piloting phase and discussed strategies for effectively addressing these challenges in my role as a facilitator.
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <img src="./images/pic-one.jpg">
+                <div class="card-content">
+                    <h3>Method</h3>
+                    <p>I've chosen to conduct a Heuristic Evaluation for the Louvre's virtual museum interface, with a specific focus on the recognition aspect over recall. 
+                    This evaluation aims to comprehensively assess how University of Michigan students interact with the interface and identify any usability issues that may hinder their experience. 
+                    This choice stems from past interview feedback, which highlighted significant problems with the interface.
+                    <br>
+                    <br>
+                    During the evaluation, participants will independently assess the interface, noting issues and potential recommendations. 
+                    The outcome of my testing will be a better understanding of specific usability issues within the Louvre's virtual museum interface, along with actionable recommendations for a significantly improved user experience.
+                </p>
+                    <br>
+                    <br>
+                    <div class="btn-container">
+                        <a href="#" class="btn btn-color-2 project-btn" onclick="window.open('https://petitegalerie.louvre.fr/visite-virtuelle/saison6/')">Louvre Gallery</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/pic-two.png">
+                <div class="card-content">
+                    <h3>Materials</h3>
+                    <p>The primary objective of this usability test is to gain valuable insights into user engagement with the Louvre's virtual museum, particularly the Petite Galerie exhibition. 
+                    I aim to identify potential usability challenges and obstacles that users may encounter during their interaction. 
+                    This includes assessing the ease of navigation and the clarity of information provided for artworks. 
+                    The collected insights will inform improvements to enhance the overall user experience and usability of the virtual museum, especially for the target audience of University of Michigan undergraduate students aged 18 to 23, who will participate in the usability test.</p>
+                    <br>
+                    <br>
+                    <div class="btn-container">
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="window.open('./assests/data.pdf')"
+                        >
+                            Data Logging Form
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/pic-three.png">
+                <div class="card-content">
+                    <h3>Piloting</h3>
+                    <p>I conducted pilot testing involving three participants to evaluate the readiness of my research materials, specifically the facilitator guide and data logging form. 
+                    This iterative process allowed me to refine these materials based on participant feedback and observations during the pilot tests.
+                    <br>
+                    <br>
+                    The facilitator guide underwent significant changes during this process. 
+                    After the first pilot test, it became evident that certain essential elements were missing. 
+                    To address this, I introduced a fourth task aimed at assessing participants' ability to navigate the website without explicit directions, providing a more comprehensive challenge.
+                    <br>
+                    <br>
+                    Regarding the decision not to conduct further piloting, I concluded that the core issues related to website navigation and task clarity had been effectively addressed. 
+                    The additional task, which required participants to locate specific artwork without explicit directions, validated the readiness of my materials for the main study focused on website navigation. 
+                    No remaining issues attributed to the materials themselves significantly hindered users' ability to navigate the website. 
+                    The data collected post-adjustments aligned with and exceeded the study's objectives, providing valuable insights into participants' navigation behaviors and challenges. 
+                    Therefore, I determined that additional piloting would unlikely yield substantially different insights, and resources could be better utilized in progressing to the main study, where the primary focus is on evaluating website navigation understanding.
+                    </p>
+                    <br>
+                    <br>
+                    <div class="btn-container">
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="window.open('./assests/guide.pdf')"
+                        >
+                            Facilitator Guide
+                        </button>
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="window.open('./assests/form.pdf')"
+                        >
+                            Data 1
+                        </button>
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="window.open('./assests/form-two.pdf')"
+                        >
+                            Data 3
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
